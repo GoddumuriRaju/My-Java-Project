@@ -30,7 +30,7 @@ jobs:
     - name: execute a script
       continue-on-error: true
       run: |
-          exit 0
+          cat test-file.txt
 
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v6
